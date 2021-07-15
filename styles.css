@@ -3,7 +3,8 @@ img {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: fit-content;
+   height: auto;
+   width: 50%;
 }
 
 html {
@@ -14,4 +15,11 @@ h1 {
     font-weight: bold;
 }
 
+* {
+    background-color: mistyrose;
+}
+
+#logo {
+    width: 10%;
+}
 /* Media Queries */
