@@ -1,0 +1,17 @@
+/* Media Queries */
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: fit-content;
+}
+
+html {
+    font-family: 'Della Respira', serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+/* Media Queries */
