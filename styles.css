@@ -4,7 +4,7 @@ img {
    margin-left: auto;
    margin-right: auto;
    height: auto;
-   width: 50%;
+   width: 30%;
 }
 
 html {
@@ -17,9 +17,24 @@ h1 {
 
 * {
     background-color: mistyrose;
+    text-align: center;
 }
 
 #logo {
     width: 10%;
 }
+
+#founder{
+    width: 15%;
+}
+
+body {
+    display:block;
+    margin: 5%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
 /* Media Queries */
