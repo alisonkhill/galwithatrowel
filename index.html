@@ -13,46 +13,78 @@
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <img id="logo" src = "images/GWAT_Logo.jpg" alt = "Gal with a Trowel Logo" height = 300em>
-    <h1>Gal with a Trowel</h1>
-    <h2>For all your gardening needs!</h2>
+    <header>
+        <img id="logo" src = "images/GWAT_Logo.jpg" alt = "Gal with a Trowel Logo" height = 300em>
+        <h1>Gal with a Trowel</h1>
+        <h2>Want to spruce up your green space, but don't have the time or green thumb? I can help with that! Let me help plant the seeds of the garden of your dreams. No space is too small or large to have a relaxing spot with beautiful greenery.</h2>
+        <img src = "images/foxglove.jpg" alt = "Close-up of foxglove flowers" height = 300em>
+        <img src = "images/Mimosas.jpg" alt = "Mimosa flowers" height = 300em>
+    </header>
     <!--About section with placeholder images and text, might move to a separate page-->
-    <section>
+    <section id="About">
         <h3>About</h3>
         <p>We are a small gardening business in Louisville, Kentucky.</p>
-        <p>Tara Sheehan, founder</p>
+        <p>Tara Sheehan, Founder & Lead Gardener</p>
         <img id="founder" src= "http://placekitten.com/200/300" alt = "Photo of Gal with a Trowel founder Tara Sheehan">
         <p>
             Tara is a Louisville native with a lifelong passion for gardening. Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
             C/O https://placeholder.com/text/lorem-ipsum/ 
         </p>
+        <p>Pat Sheehan, Gardener and "Extra Muscle"</p>
+        <img id="extra-muscle" src= "http://placekitten.com/200/300" alt = "Photo of Gal with a Trowel gardener Pat Sheehan">
+        <p>
+            Pat is a Louisville native with a lifelong passion for gardening. Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            C/O https://placeholder.com/text/lorem-ipsum/ 
+        </p>
     </section>
-    <section>
+
+    <section id="Services">
         <h3>Services</h3>
-        <ol>
-            <li>Let's Get Started</li>
-            <li>Take Me Shopping</li>
-            <li>Full Garden Plan</li>
-            <li>General Upkeep</li>
-            <li>Weeding/Clearing</li>
-            <li>Tilling</li>
-            <li>Pruning</li>
-            <li>Planting</li>
-        </ol>
+        <ul>
+            <li class = "main-items">Let's Get Started</li>
+                <li class = "sub-items">30 minutes, Free</li>
+                <li class = "sub-items">I would come and see the space that we want to work with. Listening to your dreams and goals of what you would like to do and gather information to get you a better estimate.</li>
+            <li class = "main-items">Take Me Shopping</li>
+                <li class = "sub-items">45+ minutes, Free</li>
+                <li class = "sub-items">Not sure what you want to put in your space? I love our local nurseries and would be more than happy to help you hand pick the plant babies that you want. I would guide you in the direction of what would blossom and thrive in your space. I have a bunch of places to suggest to go and find these treasures too!</li>
+            <li class = "main-items">Full Garden Plan</li>
+                <li class = "sub-items">Duration varies, $100</li>
+                <li class = "sub-items">This would entail a full service of planning, testing the soil, choosing plants, and making a blueprint of the space. With a week time frame to come up with the best solution for your dream garden. This will be the start of your yard's transformation!</li>
+            <li class = "main-items">General Upkeep</li>
+                <li class = "sub-items">2 hours, $30</li>
+                <li class = "sub-items">This would either be a weekly or biweekly 1 hour visit to maintain your garden. Weeding, watering, and overall care.</li>
+            <li class = "main-items">Weeding/Clearing</li>
+                <li class = "sub-items">1+ hour, starts at $30</li>
+                <li class = "sub-items">Creeping Charlie and Crabgrass got you down? I'll get those garden beds up to snuff. Let the backyard fill with leaves? There I am with a rake and garden bags. Starting at $30 for the first hour and $15 for any additional hours.</li>
+            <li class = "main-items">Tilling</li>
+                <li class = "sub-items">3.5+ hours, starts at $50</li>
+                <li class = "sub-items">Tilling a space takes work and grit. A typical 4x4 hand tilled garden bed starts at $50 and usually takes 3-4 hours. Larger plots that would need a machine tiller and extra muscle (AKA my husband Pat) starts at $100 and goes by an $15 hourly rate. This includes uprooting grasses and plants to clear the plot.</li>
+            <li class = "main-items">Pruning</li>
+                <li class = "sub-items">45+ minutes, starts at $20</li>
+                <li class = "sub-items">Trees and bushes need hair cuts too! Starting at $20 for smaller (6ft and under) shrubs and trees. Up to $40 for larger trees (6ft-12ft). I cannot do anything with a ladder to to legality reasons, so I would have to be able to reach it with the telescopic pruner.</li>
+            <li class = "main-items">Planting</li>
+                <li class = "sub-items">Duration and price vary</li>
+                <li class = "sub-items">From seeds to shrubs and trees. Some are more labor intensive than others. Price varies due to duration, quantity and size of plant/garden bed.</li>
+        </ul>
     </section>
-    <section>
+
+    <section id="Gallery">
         <h3>Gallery</h3>
         <img src="images/Facebook cover, backyard photos.jpg" alt = "Close up of garden flowers: purple and pink orchids with grass, house, and fence in background" height="400em">
     </section>
-    <section>
+    <section id="Contact">
         <h3>Contact</h3>
         <p>Contact form coming soon!</p>
-        <p>The best ways to reach us are by e-mail, Facebook, and Instagram</p>
-        <p><a href="mailto:galwithatrowel@gmail.com?Subject=Service%20Request" target="_top">galwithatrowel@gmail.com</a></p>
+        <p>The best ways to reach us right now are by e-mail, Facebook, and Instagram</p>
     </section>
+    
     <footer>
-        <!--Put links and icons for Facebook and Instagram, plus a mailto link for e-mail-->
-    </footer>    
+        <!--Put links and icons for Facebook and Instagram, plus a mailto link for e-mail, also make it open in a new tab instead of navigating away from page-->
+        <a class="contact-link" href="mailto:galwithatrowel@gmail.com?Subject=Service%20Request" target="_top">galwithatrowel@gmail.com</a>
+        <a class="contact-link" href="http://www.facebook.com/galwithatrowel">Facebook</a>
+        <a class="contact-link" href="http://www.instagram.com/galwithatrowel">Instagram</a>
+    </footer>   
 </body>
 </html>

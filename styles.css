@@ -22,9 +22,10 @@ h1 {
 
 #logo {
     width: 10%;
+    border-radius: 20%;
 }
 
-#founder{
+#founder, #extra-muscle {
     width: 15%;
 }
 
@@ -35,6 +36,22 @@ body {
 
 h1, h2, h3 {
     text-align: center;
+}
+.main-items {
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.sub-items {
+    text-align: left;
+}
+
+section {
+    display: flexbox;
+}
+
+.contact-link {
+    margin: 2%;
 }
 
 /* Media Queries */
