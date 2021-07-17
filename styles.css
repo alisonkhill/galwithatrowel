@@ -1,6 +1,6 @@
-/* Media Queries */
+/* Base styles */
 img {
-   display: block;
+   display: inline-block;
    margin-left: auto;
    margin-right: auto;
    height: auto;
@@ -30,8 +30,8 @@ h1 {
 }
 
 body {
-    display:block;
-    margin: 5%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -39,7 +39,7 @@ h1, h2, h3 {
 }
 .main-items {
     font-weight: bold;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .sub-items {
@@ -47,11 +47,18 @@ h1, h2, h3 {
 }
 
 section {
-    display: flexbox;
+    display: block;
 }
 
 .contact-link {
     margin: 2%;
+}
+
+.nav {
+    border: 3px solid cornflowerblue;
+    background-color: cornflowerblue;
+    border-radius: 15%;
+    font-weight: bold;
 }
 
 /* Media Queries */
