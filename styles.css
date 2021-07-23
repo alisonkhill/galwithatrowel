@@ -1,10 +1,22 @@
-/* Base styles */
+/* Base styles - styled for Mobile First */
 img {
    display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
    height: auto;
-   width: 30%;
+   width: 100%;
+}
+#top-matter {
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    float: left;
+    border-radius: 50%;
+    width: 40%;
+}
+#nav {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 html {
@@ -13,6 +25,11 @@ html {
 
 h1 {
     font-weight: bold;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
 }
 
 * {
@@ -20,29 +37,17 @@ h1 {
     text-align: center;
 }
 
-#logo {
-    width: 10%;
-    border-radius: 20%;
-}
-
-#founder, #extra-muscle {
-    width: 15%;
-}
-
 body {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
-h1, h2, h3 {
-    text-align: center;
-}
 .main-items {
     font-weight: bold;
     margin-top: 5%;
 }
 
-.sub-items {
+.service-description {
     text-align: left;
 }
 
@@ -53,12 +58,10 @@ section {
 .contact-link {
     margin: 2%;
 }
-
 .nav {
-    border: 3px solid cornflowerblue;
-    background-color: cornflowerblue;
-    border-radius: 15%;
+    margin: 5%;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 /* Media Queries */
