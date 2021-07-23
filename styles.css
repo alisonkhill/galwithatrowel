@@ -9,7 +9,6 @@ img {
     flex-direction: row;
 }
 #logo {
-    float: left;
     border-radius: 50%;
     width: 40%;
 }
@@ -44,11 +43,13 @@ body {
 
 .main-items {
     font-weight: bold;
-    margin-top: 5%;
 }
 
-.service-description {
-    text-align: left;
+.service {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    margin: 1%
 }
 
 section {
@@ -65,3 +66,34 @@ section {
 }
 
 /* Media Queries */
+
+@media screen and (min-width: 720px) {
+    #top-matter {
+        display: flex;
+        flex-direction: row;
+    }
+    #nav {
+        display: flex;
+        flex-direction: row;
+    }
+    #logo {
+        width: 10%;
+    }
+    img {
+        width: 40%;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .service {
+        width: 33%;
+    }
+}
