@@ -1,16 +1,23 @@
 /* Base styles - styled for Mobile First */
+header {
+    padding: 2%;
+}
+
 img {
    display: inline-block;
    height: auto;
-   width: 100%;
+   width: 75%;
 }
-#top-matter {
+
+#top-nav {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
+
 #logo {
     border-radius: 50%;
-    width: 40%;
+    width: 150px;
+    height: 185.25px;
 }
 #nav {
     display: flex;
@@ -18,8 +25,18 @@ img {
     width: 50%;
 }
 
+a:hover {
+    transform:scale(1.1);
+}
+
 html {
     font-family: 'Della Respira', serif;
+    margin: 1%;
+    text-align: center;
+}
+
+.staff {
+    text-decoration: underline;
 }
 
 h1 {
@@ -33,23 +50,21 @@ h2 {
 
 * {
     background-color: mistyrose;
-    text-align: center;
-}
-
-body {
-    width: 90%;
-    margin: 0 auto;
 }
 
 .main-items {
     font-weight: bold;
 }
 
-.service {
+body {
+    padding: 2%;
+}
+
+.container {
     display: flex;
     flex-direction: column;
-    border: solid black;
-    margin: 1%
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -65,35 +80,63 @@ section {
     font-size: 1.1em;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Media Queries */
 
-@media screen and (min-width: 720px) {
-    #top-matter {
-        display: flex;
-        flex-direction: row;
+/* This media query changes the navigation at the top so it is spread out horizontally for larger screens while remaining vertical for small screens. It also rearranges the services horizontally. */
+@media screen and (min-width: 500px) {
+    #top-nav {
+       display:inline-block;
     }
+    
+    body, header {
+        padding: 1%;
+    }
+
     #nav {
         display: flex;
         flex-direction: row;
     }
-    #logo {
-        width: 10%;
-    }
+    
     img {
-        width: 40%;
+        width: 50%;
     }
-    ul {
+    
+    .gallery-image:active {
+        transform: scale(1.75);
+    }
+    
+    html {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    footer {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
     }
 }
 
-@media screen and (min-width: 1000px) {
-    ul {
-        display: flex;
-        flex-direction: row;
+/* This media query fixes the width of images so they stay at a nice size for viewing. It also rearranges items in the different sections to display horizontally as blocks rather than continuin to stretch with the page. */
+
+@media screen and (min-width: 800px) {
+    img {
+        width: 400px;
     }
-    .service {
-        width: 33%;
+    
+   .container {
+        display: flex;    
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 }

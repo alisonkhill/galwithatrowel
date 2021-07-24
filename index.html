@@ -14,14 +14,15 @@
 </head>
 <body>
     <script src="script.js"></script>
+    
     <header>
-        <div id="top-matter">
+        <div id="top-nav">
             <img id="logo" src = "images/GWAT_Logo.jpg" alt = "Gal with a Trowel Logo">
             <section id="nav">
-                <a class = "nav" href="#About">About</a>
-                <a class = "nav" href="#Services">Services</a>
-                <a class = "nav" href="#Gallery">Gallery</a>
-                <a class = "nav" href="#Contact">Contact</a>
+                <a class = "nav" href="#about">About</a>
+                <a class = "nav" href="#services">Services</a>
+                <a class = "nav" href="#gallery">Gallery</a>
+                <a class = "nav" href="#contact">Contact</a>
             </section>
         </div>      
         <h1>Gal with a Trowel</h1>
@@ -32,96 +33,107 @@
     </header>
    
     <!--About section with placeholder images and text-->
-    <section id="About">
+    <section id="about">
         <h2>About</h2>
         <p>We are a small gardening business in Louisville, Kentucky.</p>
-        <p>Tara Sheehan, Founder & Lead Gardener</p>
-        <img id="founder" src= "images/hibiscus.jpg" alt = "Photo of Gal with a Trowel founder Tara Sheehan">
-        <p>
-            Tara is a Louisville native with a lifelong passion for gardening. Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <p>Pat Sheehan, Gardener and "Extra Muscle"</p>
-        <img id="extra-muscle" src= "images/LilyPad.jpg" alt = "Photo of Gal with a Trowel gardener Pat Sheehan">
-        <p>
-            Pat is a Louisville native with a lifelong passion for gardening. Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <p><a href="#top-matter">Back to Top</a></p>
+        <div class = "container">
+            <div class = "container-item">
+                <p class = "staff">Tara Sheehan, Founder & Lead Gardener</p>
+                <img id="founder" src= "images/hibiscus.jpg" alt = "Photo of Gal with a Trowel founder Tara Sheehan">
+                <p>
+                    Tara is a Louisville native with a lifelong passion for gardening. Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class = "container-item">
+                <p class = "staff">Pat Sheehan, Gardener and "Extra Muscle"</p>
+                <img id="extra-muscle" src= "images/LilyPad.jpg" alt = "Photo of Gal with a Trowel gardener Pat Sheehan">
+                <p>
+                    Pat is a Louisville native with a lifelong passion for gardening. Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+        <p><a href="#top-nav">Back to Top</a></p>
     </section>
 
-    <section id="Services">
+    <section id="services">
         <h2>Services</h2>
-        <!--Here, use JavaScript to let the details show or hide for each sub-item (eg, "show more")-->
-        <ul>
-            <div class = "service">
-                <li class = "main-items">Let's Get Started</li>
-                <li class = "sub-items">30 minutes, Free</li>
-                <li class = "service-description">I would come and see the space that we want to work with. Listening to your dreams and goals of what you would like to do and gather information to get you a better estimate.</li>
+        <div class="container">
+            <div class = "container-item">
+                <p class = "main-items">Let's Get Started</p>
+                <p class = "sub-items">30 minutes, Free</p>
+                <p class = "service-description">I would come and see the space that we want to work with. Listening to your dreams and goals of what you would like to do and gather information to get you a better estimate.</p>
             </div>
             
-            <div class = "service">
-                <li class = "main-items">Take Me Shopping</li>
-                <li class = "sub-items">45+ minutes, Free</li>
-                <li class = "service-description">Not sure what you want to put in your space? I love our local nurseries and would be more than happy to help you hand pick the plant babies that you want. I would guide you in the direction of what would blossom and thrive in your space. I have a bunch of places to suggest to go and find these treasures too!</li>
+            <div class = "container-item">
+                <p class = "main-items">Take Me Shopping</p>
+                <p class = "sub-items">45+ minutes, Free</p>
+                <p class = "service-description">Not sure what you want to put in your space? I love our local nurseries and would be more than happy to help you hand pick the plant babies that you want. I would guide you in the direction of what would blossom and thrive in your space. I have a bunch of places to suggest to go and find these treasures too!</p>
             </div>
             
-            <div class = "service">
-                <li class = "main-items">Full Garden Plan</li>
-                <li class = "sub-items">Duration varies, $100</li>
-                <li class = "service-description">This would entail a full service of planning, testing the soil, choosing plants, and making a blueprint of the space. With a week time frame to come up with the best solution for your dream garden. This will be the start of your yard's transformation!</li>
+            <div class = "container-item">
+                <p class = "main-items">Full Garden Plan</p>
+                <p class = "sub-items">Duration varies, $100</p>
+                <p class = "service-description">This would entail a full service of planning, testing the soil, choosing plants, and making a blueprint of the space. With a week time frame to come up with the best solution for your dream garden. This will be the start of your yard's transformation!</p>
             </div>
             
-            <div class = "service">
-                <li class = "main-items">General Upkeep</li>
-                <li class = "sub-items">2 hours, $30</li>
-                <li class = "service-description">This would either be a weekly or biweekly 1 hour visit to maintain your garden. Weeding, watering, and overall care.</li>
+            <div class = "container-item">
+                <p class = "main-items">General Upkeep</p>
+                <p class = "sub-items">2 hours, $30</p>
+                <p class = "service-description">This would either be a weekly or biweekly 1 hour visit to maintain your garden. Weeding, watering, and overall care.</p>
             </div>
             
-            <div class = "service">
-                <li class = "main-items">Weeding/Clearing</li>
-                <li class = "sub-items">1+ hour, starts at $30</li>
-                <li class = "service-description">Creeping Charlie and Crabgrass got you down? I'll get those garden beds up to snuff. Let the backyard fill with leaves? There I am with a rake and garden bags. Starting at $30 for the first hour and $15 for any additional hours.</li>
+            <div class = "container-item">
+                <p class = "main-items">Weeding/Clearing</p>
+                <p class = "sub-items">1+ hour, starts at $30</p>
+                <p class = "service-description">Creeping Charlie and Crabgrass got you down? I'll get those garden beds up to snuff. Let the backyard fill with leaves? There I am with a rake and garden bags. Starting at $30 for the first hour and $15 for any additional hours.</p>
             </div>
             
-            <div class = "service">
-                <li class = "main-items">Tilling</li>
-                <li class = "sub-items">3.5+ hours, starts at $50</li>
-                <li class = "service-description">Tilling a space takes work and grit. A typical 4x4 hand tilled garden bed starts at $50 and usually takes 3-4 hours. Larger plots that would need a machine tiller and extra muscle (AKA my husband Pat) starts at $100 and goes by an $15 hourly rate. This includes uprooting grasses and plants to clear the plot.</li>
+            <div class = "container-item">
+                <p class = "main-items">Tilling</p>
+                <p class = "sub-items">3.5+ hours, starts at $50</p>
+                <p class = "service-description">Tilling a space takes work and grit. A typical 4x4 hand tilled garden bed starts at $50 and usually takes 3-4 hours. Larger plots that would need a machine tiller and extra muscle (AKA my husband Pat) starts at $100 and goes by an $15 hourly rate. This includes uprooting grasses and plants to clear the plot.</p>
             </div>
             
-            <div class = "service">
-                <li class = "main-items">Pruning</li>
-                <li class = "sub-items">45+ minutes, starts at $20</li>
-                <li class = "service-description">Trees and bushes need hair cuts too! Starting at $20 for smaller (6ft and under) shrubs and trees. Up to $40 for larger trees (6ft-12ft). I cannot do anything with a ladder to to legality reasons, so I would have to be able to reach it with the telescopic pruner.</li>
+            <div class = "container-item">
+                <p class = "main-items">Pruning</p>
+                <p class = "sub-items">45+ minutes, starts at $20</p>
+                <p class = "service-description">Trees and bushes need hair cuts too! Starting at $20 for smaller (6ft and under) shrubs and trees. Up to $40 for larger trees (6ft-12ft). I cannot do anything with a ladder to to legality reasons, so I would have to be able to reach it with the telescopic pruner.</p>
             </div>
             
-            <div class = "service">
-                <li class = "main-items">Planting</li>
-                <li class = "sub-items">Duration and price vary</li>
-                <li class = "service-description">From seeds to shrubs and trees. Some are more labor intensive than others. Price varies due to duration, quantity and size of plant/garden bed.</li>
+            <div class = "container-item">
+                <p class = "main-items">Planting</p>
+                <p class = "sub-items">Duration and price vary</p>
+                <p class = "service-description">From seeds to shrubs and trees. Some are more labor intensive than others. Price varies due to duration, quantity and size of plant/garden bed.</p>
             </div>
-        </ul>
-        <p><a href="#top-matter">Back to Top</a></p>
+        
+        </div>
+        <p><a href="#top-nav">Back to Top</a></p>
     </section>
 
-    <section id="Gallery">
+    <section id="gallery">
         <h2>Gallery</h2>
-        <img src="images/Facebook cover, backyard photos.jpg" alt = "Close up of garden flowers: purple and pink orchids with grass, house, and fence in background">
-        <img src="images/Mimosas.jpg" alt = "Mimosa flowers">
-        <img src="images/peonies-bloom.jpg" alt = "Peonies in bloom">
-        <img src="images/peony-coral.jpg" alt = "Coral peonies">
-        <img src="images/phlox-creeping.jpg" alt = "Creeping phlox">
-        <img src="images/pink-dangly.jpg" alt = "Pink flowers">
-        <p><a href="#top-matter">Back to Top</a></p>
+        <div class = "container">
+            <img class="gallery-image" src="images/Facebook cover, backyard photos.jpg" alt = "Close up of garden flowers: purple and pink orchids with grass, house, and fence in background">
+            <img class="gallery-image" src="images/Mimosas.jpg" alt = "Mimosa flowers">
+            <img class="gallery-image" src="images/peonies-bloom.jpg" alt = "Peonies in bloom">
+            <img class="gallery-image" src="images/peony-coral.jpg" alt = "Coral peonies">
+            <img class="gallery-image" src="images/phlox-creeping.jpg" alt = "Creeping phlox">
+            <img class="gallery-image" src="images/pink-dangly.jpg" alt = "Pink flowers">
+        </div>
+        <p><a href="#top-nav">Back to Top</a></p>
     </section>
     
-    <section id="Contact">
+    <section id="contact">
         <h2>Contact</h2>
         <p>Contact form coming soon!</p>
         <p>The best ways to reach us right now are by e-mail, Facebook, and Instagram</p> 
+        <p><a href="#top-nav">Back to Top</a></p>
+    </section>
+
+    <footer>
         <a class="contact-link" href="mailto:galwithatrowel@gmail.com?Subject=Service%20Request" target="_top">galwithatrowel@gmail.com</a>
         <a class="contact-link" href="http://www.facebook.com/galwithatrowel">Facebook</a>
         <a class="contact-link" href="http://www.instagram.com/galwithatrowel">Instagram</a>
-        <p><a href="#top-matter">Back to Top</a></p>
-    </section>
+    </footer>
 </body>
 </html>
