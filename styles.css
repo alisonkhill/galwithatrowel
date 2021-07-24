@@ -1,6 +1,16 @@
-/* Base styles - styled for Mobile First */
+/* Base styles - styled for Mobile First and using media queries to change layout for larger screens */
+* {
+    background-color: mistyrose;
+}
+
+html {
+    font-family: 'Della Respira', serif;
+    margin: 1%;
+    text-align: center;
+}
+
 header {
-    padding: 2%;
+    padding-top: 10px;
 }
 
 img {
@@ -25,14 +35,14 @@ img {
     width: 50%;
 }
 
-a:hover {
-    transform:scale(1.1);
+.nav {
+    margin: 5%;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
-html {
-    font-family: 'Della Respira', serif;
-    margin: 1%;
-    text-align: center;
+a:hover {
+    transform:scale(1.1);
 }
 
 .staff {
@@ -48,12 +58,9 @@ h2 {
     font-size: 1.5em;
 }
 
-* {
-    background-color: mistyrose;
-}
-
 .main-items {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 body {
@@ -74,11 +81,6 @@ section {
 .contact-link {
     margin: 2%;
 }
-.nav {
-    margin: 5%;
-    font-weight: bold;
-    font-size: 1.1em;
-}
 
 footer {
     display: flex;
@@ -88,6 +90,7 @@ footer {
 /* Media Queries */
 
 /* This media query changes the navigation at the top so it is spread out horizontally for larger screens while remaining vertical for small screens. It also rearranges the services horizontally. */
+
 @media screen and (min-width: 500px) {
     #top-nav {
        display:inline-block;
@@ -126,7 +129,7 @@ footer {
     }
 }
 
-/* This media query fixes the width of images so they stay at a nice size for viewing. It also rearranges items in the different sections to display horizontally as blocks rather than continuin to stretch with the page. */
+/* This media query fixes the width of images so they stay at a nice size for viewing on large screens. It also rearranges flex items in the sections to display horizontally rather than continuing to stretch with the page. */
 
 @media screen and (min-width: 800px) {
     img {
