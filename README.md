@@ -17,7 +17,7 @@ As of 7/26/21 I have made 25 commits.
 You're looking at it!
 
 ### 2 CSS Features
-1. The top navigation menu switches between vertical and horizontal layouts when switching between mobile and desktop/landscape tablets. 
+1. The top navigation menu and the footer contact information switch between vertical and horizontal layouts when switching between mobile and desktop/landscape tablets. 
 2. The About, Services, and Gallery sections all use Flexbox to change their layout into two columns for largeer screen sizes (2).
 
 ### 2 JavaScript Features
