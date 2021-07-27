@@ -16,7 +16,8 @@ header {
 img {
    display: inline-block;
    height: auto;
-   width: 75%;
+   width: 80%;
+   margin-top: 1vh;
 }
 
 #top-nav {
@@ -51,11 +52,12 @@ a:hover {
 
 h1 {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
+    margin-top: 7vh;
 }
 
 .main-items {
@@ -74,12 +76,21 @@ body {
     align-items: center;
 }
 
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section {
     display: block;
 }
 
 .contact-link {
     margin: 2%;
+}
+
+#founder, #extra-muscle {
+    width: 80%;
 }
 
 footer {
@@ -103,10 +114,6 @@ footer {
     #nav {
         display: flex;
         flex-direction: row;
-    }
-    
-    img {
-        width: 50%;
     }
     
     .gallery-image:active {
@@ -133,13 +140,25 @@ footer {
 
 @media screen and (min-width: 800px) {
     img {
-        width: 400px;
+        width: 450px;
     }
-    
    .container {
         display: flex;    
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .list {
+        display: flex;    
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .service, .container-item {
+        min-width: 30vw;
+        max-width: 35vw;
     }
 }
