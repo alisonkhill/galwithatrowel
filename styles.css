@@ -104,7 +104,7 @@ footer {
 
 /* Media Queries */
 
-/* This media query changes the navigation at the top so it is spread out horizontally for larger screens while remaining vertical for small screens. */
+/* This media query changes the navigation at the top and the contact information in the footer so it is spread out horizontally for larger screens while remaining vertical for small screens. */
 
 @media screen and (min-width: 500px) {
     #top-nav {
