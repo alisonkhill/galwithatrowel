@@ -97,6 +97,10 @@ section {
     width: 80%;
 }
 
+button {
+    background-color: cornflowerblue;
+}
+
 footer {
     display: flex;
     flex-direction: column;

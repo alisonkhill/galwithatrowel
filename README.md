@@ -6,7 +6,7 @@ This website introduces potential customers to a new small business called *Gal 
 ## Code Louisville Project Requirements:
 
 ### 2 media queries:
-The base styles are mobile-first design, made to look good on small screens like smartphones. There are two main media queries, the first is for a min-width of 500px which changes the navigation menu at the top to display horizontally instead of vertically. The second media query is for large screens (min-width 1000px) which displays the About, Services, and Gallery sections in columns. There is an additional media query only to adjust the images for in-between screen sizes.
+The base styles are mobile-first design, made to look good on small screens like smartphones. There are two main media queries, the first is for a min-width of 500px which changes the navigation menu at the top to display horizontally instead of vertically. The second media query is for large screens (min-width 1000px) which displays the About, Services, and Gallery sections in columns. There is an additional media query only to adjust the image sizes for in-between screen sizes.
 
 ### Project on GitHub with at least 5 commits:
 As of 7/26/21 I have made 25 commits.

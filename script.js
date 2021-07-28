@@ -1,3 +1,4 @@
+// Array and function to display an image at random in the header
 // Array of various photos from the Gallery.
 
 let random_images_array = [
