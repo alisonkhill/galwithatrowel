@@ -1,4 +1,4 @@
-// This is an alternate way to use an array to display a random image in the header of the page.
+// This is an alternate way to use an array to display a random image in the header of the page. This is not currently being used in the Gal with a Trowel project, but I saved it just in case
 
 // Array of various photos from the Gallery.
 
