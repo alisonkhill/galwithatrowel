@@ -28,6 +28,7 @@ You're looking at it!
 ### 3 JavaScript Features
 1. *"Create a form (such as a ‘Contact Us’ form), validate at least one field (ex: email is in the correct format) and then use that information on your page somehow."*
     1. I created an input field in the Contact section where the user's name is requested. The function checks (validates) whether they input text, and then uses their text in a secret message that is revealed in html below. If they leave the field blank, they receive a different message subtly indicating that they failed to provide input (name.js).
+        1. 1. I believe that this feature also meets the requirements of *"Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code."*
 2. *"Create and populate a JavaScript array with one or more values and display the contents of some or all of the array on your page."*
     1. I created an array of photos which are displayed randomly using the second feature below (array-func.js)
 3. *"Create a JavaScript function that performs some form of mathematical operation (calculates something) and displays the result on your page or otherwise uses that value to do something on the site."*
