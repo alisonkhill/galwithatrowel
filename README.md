@@ -17,10 +17,15 @@ As of 7/28/21 I have made 36 commits.
 You're looking at it!
 
 ### 2 CSS Features
-1. The top navigation menu and the footer contact information switch between vertical and horizontal layouts when switching between mobile and desktop/landscape tablets. 
-2. The About, Services, and Gallery sections all use Flexbox to change their layout into two columns for larger screen sizes.
+1. *"A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching between vertical and horizontal styles"*
+    a. The top navigation menu and the footer contact information switch between vertical and horizontal layouts when switching between mobile and desktop/landscape tablets. 
+2. *"Use Flexbox or CSS Grid to organize content areas based on mobile or desktop views."*
+    a. The About, Services, and Gallery sections all use Flexbox to change their layout into two columns for larger screen sizes.
 
 ### 3 JavaScript Features
-1. I created a JavaScript array of photos which are displayed using the second feature below (array-func.js)
-2. I used a function employing Math.random and Math.floor calculations to randomly display a photo from the array in the header below the top navigation links (array-func.js).
-3. I also created an input field in the Contact section where the user's name is requested. If they type something into the input field before clicking the button, they receive a secret message addressing them by name. If they leave the field blank, they receive a different message subtly indicating that they failed to provide input (name.js).
+1. *"Create a form (such as a ‘Contact Us’ form), validate at least one field (ex: email is in the correct format) and then use that information on your page somehow."*
+    1. I created an input field in the Contact section where the user's name is requested. The function checks (validates) whether they input text, and then uses their text in a secret message that is revealed in html below. If they leave the field blank, they receive a different message subtly indicating that they failed to provide input (name.js).
+2. *"Create and populate a JavaScript array with one or more values and display the contents of some or all of the array on your page."*
+    1. I created an array of photos which are displayed randomly using the second feature below (array-func.js)
+3. *"Create a JavaScript function that performs some form of mathematical operation (calculates something) and displays the result on your page or otherwise uses that value to do something on the site."*
+    1. I used a function employing Math.random, Math.floor, and array.length calculations to randomly display a photo from the array in the header below the top navigation links (array-func.js).
