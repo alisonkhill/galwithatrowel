@@ -21,5 +21,6 @@ You're looking at it!
 2. The About, Services, and Gallery sections all use Flexbox to change their layout into two columns for largeer screen sizes (2).
 
 ### 2 JavaScript Features
-1. I created a JavaScript array of photos which are displayed using the second feature (below)
-2. I used a function employing Math.random and Math.floor calculations to randomly display a photo from the array in the header below the top navigation links.
+1. I created a JavaScript array of photos which are displayed using the second feature below (array-func.js)
+2. I used a function employing Math.random and Math.floor calculations to randomly display a photo from the array in the header below the top navigation links (array-func.js).
+3. I also created an input field in the Contact section where the user's name is requested. If they type something into the input field before clicking the button, they receive a secret message addressing them by name. If they leave the field blank, they receive a different message subtly indicating that they failed to provide input (name.js).
