@@ -6,7 +6,10 @@ This website introduces potential customers to a new small business called *Gal 
 ## Code Louisville Project Requirements:
 
 ### 2 media queries:
-The base styles are mobile-first design, made to look good on small screens like smartphones. There are two main media queries, the first is for a min-width of 500px which changes the navigation menu at the top and the contact information at the bottom to display horizontally instead of vertically. The second media query is for large screens (min-width 1000px) which displays the About, Services, and Gallery sections in columns. There is an additional media query only to adjust the image sizes for in-between screen sizes.
+The base styles are mobile-first design, made to look good on small screens like smartphones. There are two main media queries:
+1. The first is for a min-width of 500px which changes the navigation menu at the top and the contact information at the bottom to display horizontally instead of vertically. 
+2. The second media query is for large screens (min-width 1000px) which displays the About, Services, and Gallery sections in columns. 
+    1. There is an additional media query only to adjust the image sizes for in-between screen sizes.
 
 ### Project on GitHub with at least 5 commits:
 As of 7/28/21 I have made 36 commits.
@@ -18,9 +21,9 @@ You're looking at it!
 
 ### 2 CSS Features
 1. *"A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching between vertical and horizontal styles"*
-    a. The top navigation menu and the footer contact information switch between vertical and horizontal layouts when switching between mobile and desktop/landscape tablets. 
+    1. The top navigation menu and the footer contact information switch between vertical and horizontal layouts when switching between mobile and desktop/landscape tablets. 
 2. *"Use Flexbox or CSS Grid to organize content areas based on mobile or desktop views."*
-    a. The About, Services, and Gallery sections all use Flexbox to change their layout into two columns for larger screen sizes.
+    1. The About, Services, and Gallery sections all use Flexbox to change their layout into two columns for larger screen sizes.
 
 ### 3 JavaScript Features
 1. *"Create a form (such as a ‘Contact Us’ form), validate at least one field (ex: email is in the correct format) and then use that information on your page somehow."*
