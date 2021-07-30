@@ -12,7 +12,7 @@ The base styles are mobile-first design, made to look good on small screens like
     1. There is an additional media query only to adjust the image sizes for in-between screen sizes.
 
 ### Project on GitHub with at least 5 commits:
-As of 7/28/21 I have made 36 commits.
+As of 7/29/21 I have made 42 commits.
 #### https://github.com/alisonkhill/galwithatrowel.git
 #### https://alisonkhill.github.io/galwithatrowel/
 
@@ -25,11 +25,11 @@ You're looking at it!
 2. *"Use Flexbox or CSS Grid to organize content areas based on mobile or desktop views."*
     1. The About, Services, and Gallery sections all use Flexbox to change their layout into two columns for larger screen sizes.
 
-### 3 JavaScript Features
+### 3-4 JavaScript Features
 1. *"Create a form (such as a ‘Contact Us’ form), validate at least one field (ex: email is in the correct format) and then use that information on your page somehow."*
-    1. I created an input field in the Contact section where the user's name is requested. The function checks (validates) whether they input text, and then uses their text in a secret message that is revealed in html below. If they leave the field blank, they receive a different message subtly indicating that they failed to provide input (name.js).
-        1. 1. I believe that this feature also meets the requirements of *"Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code."*
+    1. I created an input field in the Contact section where the user's name is requested. The function validates that they entered text, and then uses that text in a secret message that is revealed in html below. If they leave the field blank, they receive a different message subtly indicating that they failed to provide input (name.js).
+        1. I believe that this feature also meets the requirements of *"Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code."*
 2. *"Create and populate a JavaScript array with one or more values and display the contents of some or all of the array on your page."*
-    1. I created an array of photos which are displayed randomly using the second feature below (array-func.js)
+    1. I created an array of photos which are displayed randomly using the third feature below (array-func.js)
 3. *"Create a JavaScript function that performs some form of mathematical operation (calculates something) and displays the result on your page or otherwise uses that value to do something on the site."*
     1. I used a function employing Math.random, Math.floor, and array.length calculations to randomly display a photo from the array in the header below the top navigation links (array-func.js).
