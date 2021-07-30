@@ -33,3 +33,4 @@ You're looking at it!
     1. I created an array of photos which are displayed randomly using the third feature below (array-func.js)
 3. *"Create a JavaScript function that performs some form of mathematical operation (calculates something) and displays the result on your page or otherwise uses that value to do something on the site."*
     1. I used a function employing Math.random, Math.floor, and array.length calculations to randomly display a photo from the array in the header below the top navigation links (array-func.js).
+        1. There is an additional js file (array-func-alt.js) with a different method of doing this that I decided not to use. It's not linked to index.html, but I chose not to delete the file even though it's no longer part of the project.
