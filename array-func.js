@@ -1,3 +1,4 @@
+//This script displays a random image from the array when the page is loaded. I followed this tutorial https://www.peachpit.com/articles/article.aspx?p=2239154&seqNum=10 
 //Setting the function to run when page loads
 
 window.onload = displayImage;
